@@ -1,6 +1,6 @@
 import './App.css';
 import Home from "./screen/Home";
-import Login from "./screem/Login"
+import Login from "./screen/Login"
 import React from "react";
 import {
   BrowserRouter as Router,
