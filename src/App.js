@@ -1,5 +1,6 @@
 import './App.css';
 import Home from "./screen/Home";
+import Login from "./screem/Login"
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -16,6 +17,7 @@ function App() {
     <div>
       <Routes>
       <Route exact path="/" element={<Home/>}/>
+      <Route exact path="/" element={<Login/>}/>
       </Routes>
     </div>
     </Router>
