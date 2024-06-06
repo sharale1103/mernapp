@@ -12,7 +12,7 @@ export default function carousal() {
             </form>
           </div>
           <div className="carousel-item active">
-            <img src="https://source.unsplash.com/random/900×700/?burger" alt="..." style={{filter :"brightness(100%)"}} />
+            <img src="https://source.unsplash.com/random/900×700/?burger" className="d-block w-100"  alt="..." style={{filter :"brightness(100%)"}} />
           </div>
           <div className="carousel-item">
             <img src="https://source.unsplash.com/random/900×700/?pastry" className="d-block w-100" alt="..." style={{filter :"brightness(30%)"}} />
